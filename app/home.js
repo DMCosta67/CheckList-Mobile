@@ -136,7 +136,7 @@ export default function Home() {
                         disabled={isSyncing} // Desabilita o botão durante a sincronização
                     >
                         <Text style={styles.buttonText}>
-                            {isSyncing ? 'Sincronizando...' : 'Sincronizar Dados'}
+                            {isSyncing ? 'Sincronizando...' : 'Sincronizar Dados' }
                         </Text>
                     </TouchableOpacity>
                 )}
